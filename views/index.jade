@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  div.content
+    p Welcome to #{title}
+    h2= wpTitle.rendered
+    div
+      != wpContent.rendered
